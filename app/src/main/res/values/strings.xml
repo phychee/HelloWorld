@@ -12,4 +12,7 @@
     <string name="intro">I\'m Marie</string>
     <string name="intro2">and I love Android development and donuts.</string>
     <string name="question">Say Hello?</string>
+    <string name="response">Hello to you too!</string>
+    <string name="lottery">Here\'s a lottery number:</string>
+    <string name="exit">X</string>
 </resources>

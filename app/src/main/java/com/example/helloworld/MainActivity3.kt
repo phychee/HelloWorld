@@ -12,10 +12,11 @@ class MainActivity3 : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main3)
 
+
         val noButton = findViewById<Button>(R.id.no)
         noButton.setOnClickListener {
             Log.v("Nah", "Button clicked!")
-            Toast.makeText(this, "Ok:(", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "Okay :(", Toast.LENGTH_SHORT).show()
         }
 
         val yesButton = findViewById<Button>(R.id.yes)
