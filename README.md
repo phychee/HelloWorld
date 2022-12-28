@@ -4,7 +4,7 @@ Submitted by: **Marie Victoria Zhussupova**
 
 **HelloWorld** is an android app that shows an image and introductory message, and allows pressing a button to display a Toast. 
 
-Time spent: **3** hours spent in total
+Time spent: **20** hours spent in total
 
 ## Required Features
 
@@ -16,13 +16,23 @@ The following **required** functionality is completed:
 
 The following **optional** features are implemented:
 
-* [ ] List anything else that you can get done to improve the app functionality!
+* [x] Changed the color theme
+* [x] Added icons and images
+* [x] Changed the typography
+* [x] Applied backgrounds and borders using drawables
+* [x] Made multiple views
+* [x] Added several functionalities to buttons
+* [x] Created a pop-up window
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented features:
 
 <img src='walkthrough.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+Here's a walkthrough with implemented optional features:
+
+<img src='walkthrough2.gif' title='Video Walkthrough 2' width='' alt='Video Walkthrough 2' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with [LiceCap](https://www.cockos.com/licecap/).  
@@ -34,7 +44,10 @@ GIF created with [LiceCap](https://www.cockos.com/licecap/).
 ## Notes
 
 Describe any challenges encountered while building the app.
-- No challenges encountered yet, but will update as optional features are added. 
+- A lot of documentations and tutorials for how to implement a certain feature where
+in Java, so you had to be careful to write them in Kotlin
+- Certain syntax and several functions worked only in earlier/later API versions,
+so you had to do a bit of research to make things work
 
 ## License
 
