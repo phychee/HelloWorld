@@ -7,35 +7,71 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/introTextView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginHorizontal="13dp"
-        android:text="@string/marie_intro"
+        android:id="@+id/greeting"
+        android:layout_width="198dp"
+        android:layout_height="127dp"
+        android:layout_marginStart="36dp"
         android:layout_marginTop="48dp"
+        android:fontFamily="@font/roboto_mono_bold"
+        android:text="@string/greeting"
+        android:textSize="48sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/donutImageView" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/donutImageView"
-        android:layout_width="200dp"
-        android:layout_height="200dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:scaleType="centerCrop"
-        android:layout_marginTop="48dp"
-        app:srcCompat="@drawable/donut" />
-
-    <Button
-        android:id="@+id/helloButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/button_text"
+        android:id="@+id/earth"
+        android:layout_width="340dp"
+        android:layout_height="250dp"
+        android:layout_marginBottom="208dp"
+        android:contentDescription="earth"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/introTextView" />
+        app:layout_constraintTop_toBottomOf="@+id/greeting"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/earth" />
 
+    <TextView
+        android:id="@+id/slogan"
+        android:layout_width="190dp"
+        android:layout_height="36dp"
+        android:fontFamily="@font/roboto_mono_medium"
+        android:text="@string/slogan"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/earth"
+        app:layout_constraintVertical_bias="0.251" />
+
+    <TextView
+        android:id="@+id/desc"
+        android:layout_width="340dp"
+        android:layout_height="34dp"
+        android:fontFamily="@font/roboto_mono_light"
+        android:text="@string/desc"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/slogan"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="340dp"
+        android:layout_height="58dp"
+        android:layout_marginBottom="70dp"
+        android:text="@string/start_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/desc"
+        app:layout_constraintVertical_bias="1.0" />
 </androidx.constraintlayout.widget.ConstraintLayout>

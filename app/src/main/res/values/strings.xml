@@ -2,4 +2,14 @@
     <string name="app_name">HelloWorld</string>
     <string name="marie_intro">Hello World! My name is Marie I love Android development and donuts!</string>
     <string name="button_text">Say hello</string>
+    <string name="start_button">Get Started</string>
+    <string name="next_button">Next</string>
+    <string name="yes_button">Sure!</string>
+    <string name="no_button">Nah</string>
+    <string name="greeting">Hello World!</string>
+    <string name="slogan">A Simple App.</string>
+    <string name="desc">Press button below to start the experience.</string>
+    <string name="intro">I\'m Marie</string>
+    <string name="intro2">and I love Android development and donuts.</string>
+    <string name="question">Say Hello?</string>
 </resources>
