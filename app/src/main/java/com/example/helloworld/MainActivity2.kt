@@ -11,9 +11,11 @@ class MainActivity2 : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main2)
 
+        // Action after pressing the "Next" button
         val nextButton = findViewById<Button>(R.id.nextButton)
         nextButton.setOnClickListener {
             Log.v("Next", "Button clicked!")
+            // Go to the next view
             val intent = Intent(this, MainActivity3::class.java)
             startActivity(intent)
         }

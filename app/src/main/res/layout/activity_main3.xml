@@ -39,6 +39,7 @@
         android:layout_marginBottom="70dp"
         android:backgroundTint="@color/green"
         android:text="@string/yes_button"
+        android:fontFamily="@font/roboto_mono"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -50,6 +51,7 @@
         android:layout_marginBottom="70dp"
         android:backgroundTint="@color/red"
         android:text="@string/no_button"
+        android:fontFamily="@font/roboto_mono"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -12,9 +12,11 @@ import android.widget.Toast
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        // Action after pressing the "Get Started" button
         val startButton = findViewById<Button>(R.id.startButton)
         startButton.setOnClickListener {
             Log.v("Get Started", "Button clicked!")
+            // Go to the next view
             val intent = Intent(this, MainActivity2::class.java)
             startActivity(intent)
         }
